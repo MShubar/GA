@@ -1,0 +1,40 @@
+body {
+  background-color: lightsalmon;
+  margin: 0px;
+  font-family: system-ui, sans-serif;
+}
+
+/* fifth lesson */
+@media (min-width: 600px) and (max-width: 799px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
+  }
+}
+/* fifth lesson */
+/* sixth lesson */
+nav {
+  font-size: 18px;
+  background-color: white;
+  padding: 0 16px;
+}
+
+#destinations {
+  display: none;
+}
+@media (min-width: 550px) {
+  #destinations {
+    display: flex;
+    gap: 16px;
+  }
+
+  #destinations-mobile {
+    display: none;
+  }
+}
+/* sixth lesson */

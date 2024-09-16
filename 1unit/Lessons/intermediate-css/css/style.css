@@ -1,0 +1,63 @@
+/* third lesson */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap")
+  /* third lesson */ body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+* {
+  /* second lesson */
+  box-sizing: border-box;
+  /* second lesson */
+}
+
+.top-level-list > li {
+  /* forth lesson */
+  border: solid 1px orange;
+}
+
+div + div {
+  color: green;
+}
+
+input ~ input {
+  border: 1px solid red;
+  /* forth lesson */
+}
+
+div {
+  /* fifth lesson */
+  width: 100vw;
+}
+
+/* Set the font size of an element to 2 times the root font size */
+p {
+  font-size: 2rem;
+}
+
+/* Set the margin of an element to 10% of its container element */
+input {
+  margin: 10%;
+}
+
+div {
+  /* div takes up full height of the container element */
+  height: 100%;
+  /* min-height specifies that the div will be at minimum 10rem tall */
+  min-height: 10rem;
+  /* fifth lesson */
+}
+
+body {
+  /* sixth lesson */
+  background-color: gray;
+  /* Use a system font, if none are available use an available sans-sarif font */
+  font-family: system-ui, sans-serif;
+  /* Ensures full height compatibility across devices */
+  min-height: 100dvh;
+  margin: 0;
+  /* sixth lesson */
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: gray;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.flex-parent {
+  background-color: black;
+  /* third lesson */
+  display: flex;
+  /* third lesson */
+  /* forth lesson */
+  height: 600px; /* more space to move things around */
+  justify-content: space-around;
+  flex-direction: column;
+  /* forth lesson */
+  /* fifth lesson */
+  align-items: center;
+  /* fifth lesson */
+}
+
+.flex-child {
+  font-size: 48px;
+  /* forth lesson */
+  height: 100px; /* lets make our boxes larger */
+  width: 100px;
+  /* forth lesson */
+  /* fifth lesson */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* fifth lesson */
+}
+
+#one {
+  background-color: #f0f0f0;
+  color: #707070;
+}
+
+#two {
+  background-color: #d0d0d0;
+  color: #505050;
+}
+
+#three {
+  background-color: #b0b0b0;
+  color: #303030;
+}
+
+#four {
+  background-color: #909090;
+  color: #101010;
+}

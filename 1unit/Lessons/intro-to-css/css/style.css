@@ -1,0 +1,68 @@
+p {
+  /* third Lesson */
+  color: purple; /*All p elements will now have purple text!*/
+  padding: 2px; /* all four sides */
+  /* padding saperatly */
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 3px;
+  padding-top: 4px;
+  /* padding saperatly */
+  /* third Lesson */
+}
+
+h2 {
+  /* Forth lesson */
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  /* Forth lesson */
+}
+
+.important {
+  /* Fifth lesson */
+  color: red;
+  font-weight: bold;
+}
+
+#about {
+  font-style: italic;
+  color: hotpink;
+  /* Fifth lesson */
+}
+
+/* This will match all <p> tags nested anywhere within an <div> tag */
+div p {
+  .../* Fifth lesson */;
+}
+
+h1 {
+  /* sixth lesson */
+  color: var(--brand-color);
+}
+
+a {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+
+button {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+
+#comments {
+  border: 2px solid var(--brand-color);
+}
+
+footer {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+
+body {
+  --brand-color: #5865f2;
+  /* sixth lesson */
+}
