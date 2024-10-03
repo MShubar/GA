@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+  border: black 5px solid;
+}
+
+.sqr {
+  border: black 5px solid;
+  width: 30%;
+  height: 30%;
+}
